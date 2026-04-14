@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer base {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    html {
+        @apply min-h-full w-full h-full;
+    }
+    body {
+        @apply h-full w-full flex flex-col items-center justify-center;
+    }
+}
